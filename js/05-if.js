@@ -21,3 +21,9 @@ if (a === b) {
 } else {
     console.log('A nera daugiau uz B');
 }
+
+const tt = 'labas';
+console.log(tt.length);
+const ee = [1, 2, 5];
+console.log(ee.length);
+
