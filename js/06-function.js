@@ -28,5 +28,19 @@ const onosVidurkis = vidurkis(ona);
 console.log('Ona', onosVidurkis);
 
 /*
-Funkcija
+Funkcija gauna varda ir turi grazinti sakini:
+" Vardo pirma raide yra [V] ir vardas sudarytas is 5 raidziu."
  */
+
+function vardoAnalize(name) {
+    return `Vardo ${name} pirma raide yra ${name[0]} ir vardas sudarytas is ${name.length} raidziu.`
+}
+
+const petroVardas = vardoAnalize('Petras');
+console.log(petroVardas);
+
+const marytesVardas = vardoAnalize('Maryte');
+console.log(marytesVardas);
+
+const AntanoVardas = vardoAnalize('Antanas');
+console.log(AntanoVardas);
