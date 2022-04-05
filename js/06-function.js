@@ -44,3 +44,14 @@ console.log(marytesVardas);
 
 const AntanoVardas = vardoAnalize('Antanas');
 console.log(AntanoVardas);
+
+/*
+Funkcija gauna du skaicius ir turi grazinti lygti su sprendimu, pvz.: 2 + 2 = 4
+*/
+
+function sumavimas(a, b) {
+    return `${a} + ${b} = ${a + b}`
+}
+
+const skaiciai = sumavimas(0.1, 0.2);
+console.log(skaiciai);
