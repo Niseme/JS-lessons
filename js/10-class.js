@@ -2,14 +2,13 @@
 CLASS
  */
 
-class Bankomatas {
+/*class Bankomatas {
     constructor(street, color) {
         this.gatve = street;
         this.spalva = color;
         this.turnedOn = false;
         this.money = 0;
     }
-
 
     switchOn() {
         this.turnedOn = true;
@@ -78,11 +77,37 @@ const bankomatas2 = new Bankomatas('Mazoji g. 3', 'blue');
 
 //kitas ijungimo budas
 /*bankomatas1.switchOff();
-console.log(bankomatas1);*/
+console.log(bankomatas1);
 bankomatas1.switchOn();
 bankomatas1.cashIn(5);
 bankomatas1.cashIn(5);
 bankomatas1.cashIn(9);
 bankomatas1.cashOut(10);
 console.log(bankomatas1.money);
-bankomatas1.status()
+bankomatas1.status() */
+
+class Radio {
+    constructor() {
+        this.turnedOn = false;
+        this.nextStation = '';
+    }
+    switchOn() {
+        this.turnedOn = true;
+    }
+    switchOff() {
+        this.turnedOff = false;
+    }
+    choise(radioName) {
+        if (typeof radioName != 'string') {
+            console.log(`nera radijo tokiu pavadinimu`);
+            return;
+        }
+        this.nextStation = radioName
+        console.log(`you are listening ${radioName}`);
+    }
+
+}
+const radia = new Radio();
+radia.switchOn();
+radia.choise('radiocentras');
+console.log(radia);
