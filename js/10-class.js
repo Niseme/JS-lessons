@@ -86,7 +86,7 @@ bankomatas1.cashOut(10);
 console.log(bankomatas1.money);
 bankomatas1.status() */
 
-class Radio {
+/*class Radio {
     constructor() {
         this.turnedOn = false;
         this.nextStation = '';
@@ -110,4 +110,4 @@ class Radio {
 const radia = new Radio();
 radia.switchOn();
 radia.choise('radiocentras');
-console.log(radia);
+console.log(radia);*/
